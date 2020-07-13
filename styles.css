@@ -1,0 +1,57 @@
+.click {
+	position: relative;
+	height: 400px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+h1 span.pseudo {
+	color: red;
+}
+
+.compteur h2, .game, .end {
+	display: none;
+}
+
+.compteur h2 {
+	font-size:30em;
+	text-align: center;
+}
+
+.initial .infos {
+	top: 50%;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.initial .infos h2 {
+	font-size: 3em;
+}
+
+.initial .infos input[type='text'] {
+	margin-bottom: 10px;
+}
+
+.game {
+	position: absolute;
+}
+
+.end .row {
+	position: relative;
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	padding-top: 200px;
+	height: 100vh;
+	top: 50%;
+}
+
+.end .row h2, .end .row h3, .end .row a {
+	color: #fff;
+}
+
+.end .playerName {
+	color: red;
+}
